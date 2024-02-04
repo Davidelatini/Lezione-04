@@ -1,0 +1,483 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sidebar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    box-shadow:inset 0 -10px 10px -10px rgba(0, 0, 0, 0.4);
+    max-width: 100%;
+    height: 70px;
+    padding:10px;
+}
+
+.sidebar-logo img{
+    width: 200px;
+    height: auto;
+    margin-left: 120px;
+
+}
+.sidebar-icon{
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(90, 90, 90);
+    margin-right: 250px;
+}
+
+.icon-text1{
+    color: rgb(90, 90, 90);
+    background-color: white;
+    border: solid 2px rgb(90, 90, 90);
+    border-radius: 20px;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.icon-text1 p{
+    margin: 5px;
+    text-align: center;
+}
+    
+.icon-text2{
+    background-color: rgb(92, 0, 0);
+    color: white;
+    font-size: large;
+    font-weight:500;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    
+}
+.icon-text2 p{
+    margin: 6px;
+    text-align: center;
+}
+    
+.Main-Content{
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px ;
+    margin-right: 120px;
+    
+}
+.Main-primo{
+    width: 60%;
+    height: 1000px;
+    max-width: 100%;
+    
+}
+
+.main-primosigla{
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1px rgb(212, 212, 212);
+    margin-right: 50px;
+    margin-left: 10px;
+    max-width: 100%;
+}
+.main-primosigla p{
+   padding-right: 30px;
+}
+.main-primo-contenuto1{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    max-width: 100%;
+    padding-top: 40px;
+ }
+ .prima-stringa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    padding-bottom: 1px;
+ }
+ .prima-stringa p{
+    padding-top: 3px;
+    font-weight: bold;
+    font-size: small;
+ }
+ .prima-stringa img{
+    width: 25px;
+    height: 25px;
+    border-radius: 8px;
+    margin-right: 10px;
+ }
+ .seconda-stringa{
+    width: 65%;
+    margin-top: -20px;
+    padding-bottom: 1px;
+ }
+ .seconda-stringa h2{
+    font-size: 25px;
+ }
+ .quinta-stringa{
+    width: 65%;
+    margin-top: -20px;
+    padding-bottom: 1px;
+    color: rgb(124, 124, 124);
+ }
+
+.terza-stringa{
+    width: 65%;
+    margin-top: -15px;
+    padding-bottom: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    color: rgb(124, 124, 124);
+ }
+ .terza-stringa-paragrafo{
+    font-size: small;
+ }
+ .terza-stringa-icone{
+    padding-top: 20px;
+ }
+ .terza-stringa-icone i{
+    padding-right: 20px;
+    font-size: medium;
+ }
+
+.immagine-stringa{
+    width: 20%;
+    
+ }
+ .immagine-stringa img{
+    width: 270px;
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    padding-right: 60px;
+ }
+ .incolonna{
+    display: flex;
+    flex-direction: column;
+}
+ .Main-secondo{
+    width: 30%;
+    height: 1200px;
+    border-left: solid 0.8px rgb(212, 212, 212);
+}
+.prima-secondo-main{
+    width: 450px;
+    height: 280px;
+    border-bottom: solid 1px rgb(212, 212, 212);
+    position: relative;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+.prima-secondo-main img{
+    width: 50px;
+    position: absolute;
+    top: 5px;
+    left: 190px;
+}
+.icone-main2 {
+    position: absolute;
+    top: 20px;
+    left: 245px;
+    font-size:larger;
+}
+.prima-secondo-main h3{
+    position: absolute;
+    width: 400px;
+    top:20px;
+    right: -140px;
+    text-align: center;
+    font-weight: 300;
+}
+.h4{
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    top:120px;
+    right: -70px;
+    text-align: center;
+    font-weight: 300;
+    border: solid 1px gray;
+    border-radius: 35px;
+}
+.h4 i{ 
+    position: absolute;
+    width: 40px;
+    left: 10px;
+    padding-right: 10px;
+    top: 18px;
+}
+.h4 h4{ 
+    bottom: -15px;
+    left: 50px;
+    position: absolute;
+    padding-right: 10px;
+    font-weight: lighter;
+}
+.p-paragrafo{ 
+ position: absolute;
+ width: 250px;
+ top: 200px;
+ left: -65px;
+ text-decoration: underline;
+ color: rgb(141, 141, 141);
+ font-weight: lighter;
+}
+.seconda-secondo-main{
+    width: 500px;
+    height: 250px;
+    position: relative;
+    margin-left: 20px;
+}
+.seconda-secondo-main h2{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.text1{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    border-radius: 15px;
+    padding: 7px;
+    background-color: rgb(231, 231, 231);
+}
+.text2{
+    position: absolute;
+    top: 60px;
+    left: 130px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    padding: 7px;
+}
+.text3{
+    position: absolute;
+    top: 60px;
+    left: 220px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    padding: 7px;
+}
+.text4{
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    padding: 7px;
+}
+.text5{
+    position: absolute;
+    top: 110px;
+    left: 130px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    padding: 7px;
+}
+.text6{
+    position: absolute;
+    top: 160px;
+    left: 10px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    padding: 7px;
+}
+.text7{
+    position: absolute;
+    top: 160px;
+    left: 130px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    padding: 7px;
+}
+
+
+.terza-secondo-main{
+    margin-left: 20px;
+    width: 500px;
+    height: 350px;
+}
+.terza-secondo-main h2{
+    font-size: medium;
+    font-weight: bold;
+}
+.terza-secondo-main-stringhe{
+    display: flex;
+    flex-direction: column;
+}
+.Stringa-terzo1 {
+    position: relative;
+}
+.Stringa-terzo1 img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.Stringa-terzo1 h3 {
+    position: absolute;
+    left: 70px;
+    top: -15px;
+}
+.Stringa-terzo1 p {
+    position: absolute;
+    left: 70px;
+    top: 13px;
+    width: 200px;
+    color: rgb(168, 168, 168);
+}
+.Stringa-terzo1 h4 {
+    position: absolute;
+    border: solid 1px gray;
+    left: 320px;
+    top: -15px;
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+.Stringa-terzo2 {
+    position: relative;
+}
+.Stringa-terzo2 img {
+    position: absolute;
+    top: 90px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.Stringa-terzo2 h3 {
+    position: absolute;
+    left: 65px;
+    top:75px;
+}
+.Stringa-terzo2 p {
+    position: absolute;
+    left: 65px;
+    top: 105px;
+    width: 200px;
+    color: rgb(168, 168, 168);
+}
+.Stringa-terzo2 h4 {
+    position: absolute;
+    border: solid 1px gray;
+    left: 320px;
+    top: 80px;
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.Stringa-terzo3 {
+    position: relative;
+}
+.Stringa-terzo3 img {
+    position: absolute;
+    top: 180px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.Stringa-terzo3 h3 {
+    position: absolute;
+    left: 65px;
+    top:165px;
+}
+.Stringa-terzo3 p {
+    position: absolute;
+    left: 65px;
+    top: 195px;
+    width: 200px;
+    color: rgb(168, 168, 168);
+}
+.Stringa-terzo3 h4 {
+    position: absolute;
+    border: solid 1px gray;
+    left: 320px;
+    top: 170px;
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+.quarta-secondo-main-stringhe {
+    width: 500px;
+    height: 300px;
+    margin-left: 20px;
+    position: relative;
+
+}
+
+.quarta-secondo-main-stringhe1 {
+    width: 300px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 70px;
+
+}
+.quarta-secondo-main-stringhe1 img {
+    width: 25px;
+    height: 25px;
+    border-radius: 8px;
+    margin-right: 10px;
+
+}
+.quarta-secondo-main-stringhe1 p{
+    padding-top: 3px;
+    font-weight: bold;
+    font-size: small;
+ }
+ .quarta-secondo-main-stringhe2{
+    position: absolute;
+    top:0px;
+
+}
+.quarta-secondo-main-stringhe3{
+    width: 350px;
+    position: absolute;
+    top:80px;
+
+}
+.quarta-secondo-main-stringhe4{
+    width: 350px;
+    position: absolute;
+    top:180px;
+    color:rgb(168, 168, 168) ;
+
+}
+.Footer{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.Footer-stringa{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(46, 46, 46);
+    position: absolute;
+    bottom: 0px;
+}
+.Footer-stringa2 {
+    position: absolute;
+    top: 30px;
+    left: 650px;
+    color: white;
+}
+.Footer-stringa2 ul li{
+    display: inline-block;
+    margin-right: 70px;
+    text-align: center;
+}
